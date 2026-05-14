@@ -1,0 +1,13 @@
+{
+  "name": "n8n-design-docs",
+  "version": "1.0.0",
+  "description": "n8n Architecture Design Documentation",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
