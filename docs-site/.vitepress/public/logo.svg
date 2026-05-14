@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="n8n_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8338ec"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <!-- Workflow nodes connected by lines -->
+  <circle cx="12" cy="32" r="6" fill="url(#n8n_grad)" opacity="0.9"/>
+  <circle cx="32" cy="16" r="6" fill="url(#n8n_grad)" opacity="0.85"/>
+  <circle cx="32" cy="48" r="6" fill="url(#n8n_grad)" opacity="0.85"/>
+  <circle cx="52" cy="32" r="6" fill="url(#n8n_grad)" opacity="0.9"/>
+  <!-- Connection lines -->
+  <path d="M18 32 L26 18 M18 32 L26 46 M38 18 L46 30 M38 46 L46 34" stroke="url(#n8n_grad)" stroke-width="2" stroke-linecap="round"/>
+  <!-- N8 text -->
+  <text x="32" y="35" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="url(#n8n_grad)" text-anchor="middle">n8n</text>
+</svg>
